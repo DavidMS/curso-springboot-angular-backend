@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/post")
-@CrossOrigin(origins = "${app.cors.allowedOrigins}")
+@CrossOrigin
 @AllArgsConstructor
 public class PostController {
 
